@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Privacy Policy · SiteSnap Quote</title>
+  <meta name="description" content="How SiteSnap Quote handles your quotes, photos, voice memos, and purchases. Local-first, no tracking.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <div class="wrap">
+      <a class="brand" href="index.html">SiteSnap <span>Quote</span></a>
+      <nav aria-label="Site">
+        <a href="support.html">Support</a>
+        <a href="privacy.html" aria-current="page">Privacy</a>
+        <a href="terms.html">Terms</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <h1>Privacy Policy</h1>
+    <p class="meta">Effective October 22, 2026 · Applies to the SiteSnap Quote app for iPhone and iPad</p>
+
+    <div class="card">
+      <strong>The short version.</strong>
+      <ul>
+        <li>Your quotes, clients, photos, signatures, and business profile are stored <strong>on your device</strong>. There is no SiteSnap account and no SiteSnap cloud database.</li>
+        <li>Photos are processed <strong>on your device</strong> and only leave it when you share a PDF.</li>
+        <li>When online quote extraction is available, your voice memo (or its text) is sent to our quote service to produce line items, then <strong>discarded</strong>.</li>
+        <li>Purchases go through Apple. RevenueCat, our purchase-validation provider, sees an <strong>anonymous</strong> app user ID and your App Store transactions.</li>
+        <li><strong>No ads, no analytics SDKs, no third-party tracking</strong>, and we never sell or share your data for advertising.</li>
+      </ul>
+    </div>
+
+    <nav class="card toc" aria-label="Contents">
+      <ol>
+        <li><a href="#who">Who we are</a></li>
+        <li><a href="#device">Data stored on your device</a></li>
+        <li><a href="#voice">Voice memos and quote extraction</a></li>
+        <li><a href="#photos">Photos</a></li>
+        <li><a href="#purchases">Purchases and RevenueCat</a></li>
+        <li><a href="#notifications">Notifications</a></li>
+        <li><a href="#tracking">No tracking, no ads</a></li>
+        <li><a href="#crash">Crash reports</a></li>
+        <li><a href="#sharing">When data leaves your device</a></li>
+        <li><a href="#clients">Your clients' information</a></li>
+        <li><a href="#retention">Retention and deletion</a></li>
+        <li><a href="#rights">Your rights</a></li>
+        <li><a href="#children">Children</a></li>
+        <li><a href="#security">Security</a></li>
+        <li><a href="#changes">Changes to this policy</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ol>
+    </nav>
+
+    <h2 id="who">1. Who we are</h2>
+    <p>SiteSnap Quote ("SiteSnap", "the app", "we", "us") is published on the App Store by Eric Holtermann. This policy explains what information the app handles, why, and the choices you have.</p>
+
+    <h2 id="device">2. Data stored on your device</h2>
+    <p>SiteSnap is local-first. Everything you create is saved in an on-device SQLite database and the app's private Documents folder:</p>
+    <ul>
+      <li>Your business profile: business name, trade, phone, email, license number, hourly rate, tax rate, quote numbering, and logo.</li>
+      <li>Quotes and invoices: client names, project titles, scope notes, line items, discounts, taxes, totals, and warranty notes.</li>
+      <li>Before/after photos (downscaled copies), client signatures, and the PDFs you generate.</li>
+      <li>Your onboarding answers and your remaining Quote Credits.</li>
+    </ul>
+    <p>We do not operate a server that stores this data and we cannot see it. If iCloud Backup or a computer backup is turned on for your device, iOS may include the app's data in that backup under Apple's terms.</p>
+
+    <h2 id="voice">3. Voice memos and quote extraction</h2>
+    <p>You can record a short voice memo describing a job. The recording is made with your permission (microphone) and kept on your device with the draft quote.</p>
+    <p>To turn the memo into itemized labor and materials lines, the app can use an online quote service:</p>
+    <ul>
+      <li><strong>What is sent:</strong> the memo's text transcript, or the audio recording when there is no transcript, together with your hourly rate, tax rate, currency, and trade type. Photos, client signatures, and your saved quotes are never sent.</li>
+      <li><strong>How:</strong> over an encrypted HTTPS connection to our quote service, which uses an AI model provider acting on our behalf to read the memo and return structured line items.</li>
+      <li><strong>Transient processing:</strong> the request is used only to produce your line items and is discarded after the response. It is not used to build a profile of you, sold, or used for advertising. Our provider is not permitted to use it to train its models.</li>
+      <li><strong>Offline:</strong> if the service is unavailable or you have no signal, the app uses a built-in on-device parser and nothing is sent.</li>
+    </ul>
+    <p>The sample memos in the app ("Load 5-Second Sample Voice Quote", "Try Sample Voice Dictation") are bundled text and contain no personal data.</p>
+
+    <h2 id="photos">4. Photos</h2>
+    <p>With your permission, the app uses the camera to take before/after photos and the photo library to pick existing ones or save copies. Photos are resized and placed into your PDF entirely on your device. We never upload them. The app only accesses the photos you choose.</p>
+
+    <h2 id="purchases">5. Purchases and RevenueCat</h2>
+    <p>Subscriptions (Annual Pro, Monthly Pro) and Quote Credit packs are sold through Apple's App Store. Apple processes payment; we never receive your name, Apple ID, or card details.</p>
+    <p>We use <a href="https://www.revenuecat.com/privacy">RevenueCat</a> to validate purchases and tell the app whether Pro is active. RevenueCat receives:</p>
+    <ul>
+      <li>a random, anonymous app user ID generated on your device (not linked to your name, email, or Apple ID),</li>
+      <li>App Store transaction IDs, receipts, products purchased, and purchase, renewal, trial, and expiry dates,</li>
+      <li>basic technical data needed to validate a purchase: app version, iOS version, device model, App Store country, and IP address.</li>
+    </ul>
+    <p>We use this only to provide what you paid for, restore purchases, and handle billing questions. It is not used for advertising or tracking. Quote Credits are counted on your device.</p>
+
+    <h2 id="notifications">6. Notifications</h2>
+    <p>If you start a free trial and allow notifications, the app schedules a <strong>local</strong> reminder on your device before the trial ends. No push notification service or device token is used.</p>
+
+    <h2 id="tracking">7. No tracking, no ads</h2>
+    <p>SiteSnap contains no advertising, no analytics or attribution SDKs, and no third-party tracking. We do not access the advertising identifier (IDFA), do not track you across other companies' apps or websites, and do not sell or share personal information for cross-context behavioral advertising.</p>
+
+    <h2 id="crash">8. Crash reports</h2>
+    <p>If you choose to share analytics with app developers in iOS Settings, Apple may provide us with anonymous crash reports and diagnostics. These help us fix bugs and are not linked to you.</p>
+
+    <h2 id="sharing">9. When data leaves your device</h2>
+    <p>Only in these cases:</p>
+    <ul>
+      <li>You share a PDF quote or invoice (Mail, Messages, AirDrop, Files, and so on). It goes where you send it, under that service's terms.</li>
+      <li>Voice memo extraction, as described in <a href="#voice">section 3</a>.</li>
+      <li>Purchase validation with Apple and RevenueCat, as described in <a href="#purchases">section 5</a>.</li>
+      <li>Your own device backups, as described in <a href="#device">section 2</a>.</li>
+      <li>If required by law, we would disclose the limited data we hold (the purchase records in RevenueCat).</li>
+    </ul>
+
+    <h2 id="clients">10. Your clients' information</h2>
+    <p>Quotes can contain your clients' names, signatures, and photos of their property. You are responsible for having permission to collect that information and for how you share the PDFs. It stays on your device; we never receive it.</p>
+
+    <h2 id="retention">11. Retention and deletion</h2>
+    <ul>
+      <li><strong>On-device data</strong> stays on your device until you delete the app. Deleting the app removes its database, photos, and PDFs from the device (see <a href="support.html#reset">how to reset your data</a>).</li>
+      <li><strong>Voice extraction requests</strong> are not retained after the response.</li>
+      <li><strong>Purchase records</strong> in RevenueCat are kept while needed to provide your subscription and for tax and accounting obligations. Email us to request deletion of the records tied to your anonymous ID.</li>
+    </ul>
+
+    <h2 id="rights">12. Your rights</h2>
+    <p>Depending on where you live (for example the EU/UK GDPR or California's CCPA/CPRA), you may have the right to access, correct, delete, or port your personal information, and to object to or restrict processing. Because almost all data lives only on your device, you control it directly. For anything we or RevenueCat hold, email us and we will respond within 30 days. We will not discriminate against you for exercising these rights. Where the GDPR applies, we process purchase data to perform our contract with you and voice requests at your request to provide the feature.</p>
+
+    <h2 id="children">13. Children</h2>
+    <p>SiteSnap is a business tool and is not directed to children under 13. We do not knowingly collect personal information from children.</p>
+
+    <h2 id="security">14. Security</h2>
+    <p>Data on your device is protected by iOS sandboxing and, when your device is locked with a passcode, iOS data protection. Network requests use HTTPS. No method is perfectly secure, so keep your device passcode-protected.</p>
+
+    <h2 id="changes">15. Changes to this policy</h2>
+    <p>If we change this policy we will update the effective date above and, for material changes, tell you in the app before the change applies.</p>
+
+    <h2 id="contact">16. Contact</h2>
+    <p>Questions or requests: <a href="mailto:eric.holtermann@gmail.com">eric.holtermann@gmail.com</a>. More help is on the <a href="support.html">Support page</a>.</p>
+  </main>
+
+  <footer>
+    <div class="wrap links">
+      <span>© 2026 SiteSnap Quote</span>
+      <a href="support.html">Support</a>
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="terms.html">Terms of Use (EULA)</a>
+    </div>
+  </footer>
+</body>
+</html>
