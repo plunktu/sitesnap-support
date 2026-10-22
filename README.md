@@ -12,7 +12,7 @@ Help, legal pages, and contact for **SiteSnap Quote**, the iPhone and iPad app t
 
 ## Contact
 
-Email **[eric.holtermann@gmail.com](mailto:eric.holtermann@gmail.com?subject=SiteSnap%20Quote%20support)**. We aim to reply within 2 business days.
+Email **[eric.holtermann@gmail.com](mailto:eric.holtermann@gmail.com?subject=SiteSnap%20Quote%20support)**. We aim to reply within 5 business days.
 
 Please include your device (iPhone or iPad), your iOS version, and the app version. For billing questions, include the date of the charge. **Never send card details**: we never see them.
 
