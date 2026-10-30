@@ -1,6 +1,6 @@
-# SiteSnap Quote Support
+# Bidsmith Support
 
-Help, legal pages, and contact for **SiteSnap Quote**, the iPhone and iPad app that turns before/after job photos and a short voice memo into a branded PDF quote or invoice.
+Help, legal pages, and contact for **Bidsmith**, the iPhone and iPad app that turns before/after job photos and a short voice memo into a branded PDF quote or invoice.
 
 **Website:** https://plunktu.github.io/sitesnap-support/
 
@@ -12,7 +12,7 @@ Help, legal pages, and contact for **SiteSnap Quote**, the iPhone and iPad app t
 
 ## Contact
 
-Email **[eric.holtermann@gmail.com](mailto:eric.holtermann@gmail.com?subject=SiteSnap%20Quote%20support)**. We aim to reply within 5 business days.
+Email **[eric.holtermann@gmail.com](mailto:eric.holtermann@gmail.com?subject=Bidsmith%20support)**. We aim to reply within 5 business days.
 
 Please include your device (iPhone or iPad), your iOS version, and the app version. For billing questions, include the date of the charge. **Never send card details**: we never see them.
 
@@ -20,7 +20,7 @@ Please don't open GitHub issues with personal or client information. Email is pr
 
 ## Quick answers
 
-**How does it work?** Add before/after photos and record a short voice memo describing the job. SiteSnap builds itemized labor and materials lines with tax. Review the lines, collect the client's signature on screen, then tap **Create PDF & Share**.
+**How does it work?** Add before/after photos and record a short voice memo describing the job. Bidsmith builds itemized labor and materials lines with tax. Review the lines, collect the client's signature on screen, then tap **Create PDF & Share**.
 
 **Can I try it without talking?** Yes. On the New Quote tab, tap **Load 5-Second Sample Voice Quote**. On the plans screen, **Try Sample Voice Dictation** builds a free sample PDF marked SAMPLE.
 
@@ -38,7 +38,7 @@ Please don't open GitHub issues with personal or client information. Email is pr
 
 1. Open the **Settings** app on your iPhone or iPad.
 2. Tap **your name**, then **Subscriptions**.
-3. Tap **SiteSnap Quote**, then **Cancel Subscription** (or change plans).
+3. Tap **Bidsmith**, then **Cancel Subscription** (or change plans).
 
 You can also tap **Manage Subscription** in the app's Settings tab, or go to [apps.apple.com/account/subscriptions](https://apps.apple.com/account/subscriptions). Cancel at least 24 hours before your trial or billing period ends. **Deleting the app does not cancel your subscription.**
 
@@ -46,11 +46,11 @@ You can also tap **Manage Subscription** in the app's Settings tab, or go to [ap
 
 Before you start, share or save any PDFs you want to keep. A reset can't be undone, and we have no copy of your data.
 
-1. Touch and hold the **SiteSnap Quote** icon, then tap **Remove App** > **Delete App**.
+1. Touch and hold the **Bidsmith** icon, then tap **Remove App** > **Delete App**.
 2. This deletes every quote, client, photo, signature, PDF, your business profile, and any Quote Credits on this device.
 3. Reinstall from the App Store to start fresh. Tap **Restore Purchases** to bring back an active subscription.
 
-An older iCloud backup can still contain SiteSnap data. To remove it, go to Settings > your name > iCloud > Manage Storage > Backups, choose your device, and turn off SiteSnap Quote.
+An older iCloud backup can still contain Bidsmith data. To remove it, go to Settings > your name > iCloud > Manage Storage > Backups, choose your device, and turn off Bidsmith.
 
 ---
 
